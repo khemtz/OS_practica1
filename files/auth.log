@@ -1,0 +1,249 @@
+Jan 19 14:51:45 laboratorio useradd[687]: new group: name=usuario, GID=1000
+Jan 19 14:51:45 laboratorio useradd[687]: new user: name=usuario, UID=1000, GID=1000, home=/home/usuario, shell=/bin/bash, from=none
+Jan 19 14:51:45 laboratorio useradd[687]: add 'usuario' to group 'adm'
+Jan 19 14:51:45 laboratorio useradd[687]: add 'usuario' to group 'cdrom'
+Jan 19 14:51:45 laboratorio useradd[687]: add 'usuario' to group 'sudo'
+Jan 19 14:51:45 laboratorio useradd[687]: add 'usuario' to group 'dip'
+Jan 19 14:51:45 laboratorio useradd[687]: add 'usuario' to group 'plugdev'
+Jan 19 14:51:45 laboratorio useradd[687]: add 'usuario' to group 'lxd'
+Jan 19 14:51:45 laboratorio useradd[687]: add 'usuario' to shadow group 'adm'
+Jan 19 14:51:45 laboratorio useradd[687]: add 'usuario' to shadow group 'cdrom'
+Jan 19 14:51:45 laboratorio useradd[687]: add 'usuario' to shadow group 'sudo'
+Jan 19 14:51:45 laboratorio useradd[687]: add 'usuario' to shadow group 'dip'
+Jan 19 14:51:45 laboratorio useradd[687]: add 'usuario' to shadow group 'plugdev'
+Jan 19 14:51:45 laboratorio useradd[687]: add 'usuario' to shadow group 'lxd'
+Jan 19 14:51:49 laboratorio systemd-logind[720]: New seat seat0.
+Jan 19 14:51:49 laboratorio systemd-logind[720]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 19 14:51:49 laboratorio systemd-logind[720]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 19 14:51:49 laboratorio systemd-logind[720]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 19 14:51:50 laboratorio sshd[841]: Server listening on 0.0.0.0 port 22.
+Jan 19 14:51:50 laboratorio sshd[841]: Server listening on :: port 22.
+Jan 19 14:51:54 laboratorio login[753]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 19 14:51:55 laboratorio login[753]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 19 14:52:01 laboratorio login[753]: pam_unix(login:session): session opened for user usuario by LOGIN(uid=0)
+Jan 19 14:52:01 laboratorio systemd-logind[720]: New session 1 of user usuario.
+Jan 19 14:52:01 laboratorio systemd: pam_unix(systemd-user:session): session opened for user usuario by (uid=0)
+Jan 19 14:52:02 laboratorio systemd-logind[720]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 19 14:52:02 laboratorio systemd-logind[720]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 19 14:52:02 laboratorio systemd-logind[720]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 19 14:52:39 laboratorio sshd[841]: Received signal 15; terminating.
+Jan 19 14:52:39 laboratorio sshd[1826]: Server listening on 0.0.0.0 port 22.
+Jan 19 14:52:39 laboratorio sshd[1826]: Server listening on :: port 22.
+Jan 19 14:53:15 laboratorio sshd[1851]: Accepted password for usuario from 192.168.2.189 port 49786 ssh2
+Jan 19 14:53:15 laboratorio sshd[1851]: pam_unix(sshd:session): session opened for user usuario by (uid=0)
+Jan 19 14:53:15 laboratorio systemd-logind[720]: New session 3 of user usuario.
+Jan 19 15:17:01 laboratorio CRON[1969]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 19 15:17:02 laboratorio CRON[1969]: pam_unix(cron:session): session closed for user root
+Jan 19 16:17:01 laboratorio CRON[1993]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 19 16:17:01 laboratorio CRON[1993]: pam_unix(cron:session): session closed for user root
+Jan 21 13:38:04 laboratorio sshd[593]: Server listening on 0.0.0.0 port 22.
+Jan 21 13:38:04 laboratorio sshd[593]: Server listening on :: port 22.
+Jan 21 13:38:10 laboratorio systemd-logind[578]: New seat seat0.
+Jan 21 13:38:10 laboratorio systemd-logind[578]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 21 13:38:10 laboratorio systemd-logind[578]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 21 13:38:10 laboratorio systemd-logind[578]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 21 13:39:32 laboratorio systemd-logind[578]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 21 13:39:32 laboratorio systemd-logind[578]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 21 13:39:32 laboratorio systemd-logind[578]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 21 14:17:01 laboratorio CRON[2108]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 21 14:17:01 laboratorio CRON[2108]: pam_unix(cron:session): session closed for user root
+Jan 21 15:17:01 laboratorio CRON[2205]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 21 15:17:01 laboratorio CRON[2205]: pam_unix(cron:session): session closed for user root
+Jan 21 16:17:01 laboratorio CRON[2271]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 21 16:17:01 laboratorio CRON[2271]: pam_unix(cron:session): session closed for user root
+Jan 21 17:17:01 laboratorio CRON[2305]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 21 17:17:01 laboratorio CRON[2305]: pam_unix(cron:session): session closed for user root
+Jan 21 18:17:01 laboratorio CRON[2351]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 21 18:17:01 laboratorio CRON[2351]: pam_unix(cron:session): session closed for user root
+Jan 21 19:17:01 laboratorio CRON[2366]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 21 19:17:01 laboratorio CRON[2366]: pam_unix(cron:session): session closed for user root
+Jan 21 20:58:42 laboratorio sshd[612]: Server listening on 0.0.0.0 port 22.
+Jan 21 20:58:42 laboratorio sshd[612]: Server listening on :: port 22.
+Jan 21 20:58:47 laboratorio systemd-logind[580]: New seat seat0.
+Jan 21 20:58:47 laboratorio systemd-logind[580]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 21 20:58:47 laboratorio systemd-logind[580]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 21 20:58:47 laboratorio systemd-logind[580]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 21 20:59:24 laboratorio login[592]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 20:59:26 laboratorio login[592]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 20:59:27 laboratorio login[592]: pam_unix(login:session): session opened for user usuario by LOGIN(uid=0)
+Jan 21 20:59:27 laboratorio systemd-logind[580]: New session 1 of user usuario.
+Jan 21 20:59:27 laboratorio systemd: pam_unix(systemd-user:session): session opened for user usuario by (uid=0)
+Jan 21 21:14:33 laboratorio sshd[948]: Accepted password for usuario from 192.168.2.189 port 60865 ssh2
+Jan 21 21:14:33 laboratorio sshd[948]: pam_unix(sshd:session): session opened for user usuario by (uid=0)
+Jan 21 21:14:33 laboratorio systemd-logind[580]: New session 3 of user usuario.
+Jan 21 21:17:01 laboratorio CRON[1051]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 21 21:17:01 laboratorio CRON[1051]: pam_unix(cron:session): session closed for user root
+Jan 21 21:18:23 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 21:18:29 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 21:18:29 laboratorio sudo:  usuario : TTY=pts/0 ; PWD=/home/usuario ; USER=root ; COMMAND=/usr/bin/su
+Jan 21 21:18:29 laboratorio sudo: pam_unix(sudo:session): session opened for user root by usuario(uid=0)
+Jan 21 21:18:29 laboratorio su: (to root) usuario on pts/0
+Jan 21 21:18:29 laboratorio su: pam_unix(su:session): session opened for user root by usuario(uid=0)
+Jan 21 21:29:57 laboratorio login[1112]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 21:30:00 laboratorio login[1112]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 21:30:00 laboratorio login[1112]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=usuario
+Jan 21 21:30:03 laboratorio login[1112]: FAILED LOGIN (1) on '/dev/tty2' FOR 'usuario', Authentication failure
+Jan 21 21:30:06 laboratorio login[1112]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 21:30:08 laboratorio login[1112]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 21:30:09 laboratorio login[1112]: pam_unix(login:session): session opened for user usuario by LOGIN(uid=0)
+Jan 21 21:30:09 laboratorio systemd-logind[580]: New session 5 of user usuario.
+Jan 21 21:32:03 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 21:32:05 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 21:32:05 laboratorio sudo:  usuario : TTY=tty2 ; PWD=/home/usuario ; USER=root ; COMMAND=/usr/bin/kill -9 948
+Jan 21 21:32:05 laboratorio sudo: pam_unix(sudo:session): session opened for user root by usuario(uid=0)
+Jan 21 21:32:05 laboratorio sudo: pam_unix(sudo:session): session closed for user root
+Jan 21 21:33:30 laboratorio sudo:  usuario : TTY=tty2 ; PWD=/home/usuario ; USER=root ; COMMAND=/usr/bin/kill -9 1037
+Jan 21 21:33:30 laboratorio sudo: pam_unix(sudo:session): session opened for user root by usuario(uid=0)
+Jan 21 21:33:30 laboratorio systemd-logind[580]: Session 3 logged out. Waiting for processes to exit.
+Jan 21 21:33:30 laboratorio su: pam_unix(su:session): session closed for user root
+Jan 21 21:33:30 laboratorio sudo: pam_unix(sudo:session): session closed for user root
+Jan 21 21:33:30 laboratorio sudo: pam_unix(sudo:session): session closed for user root
+Jan 21 21:33:30 laboratorio systemd-logind[580]: Removed session 3.
+Jan 21 21:33:45 laboratorio sshd[1322]: Accepted password for usuario from 192.168.2.189 port 61076 ssh2
+Jan 21 21:33:45 laboratorio sshd[1322]: pam_unix(sshd:session): session opened for user usuario by (uid=0)
+Jan 21 21:33:45 laboratorio systemd-logind[580]: New session 6 of user usuario.
+Jan 21 21:35:15 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 21:35:17 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 21:35:17 laboratorio sudo:  usuario : TTY=pts/0 ; PWD=/home/usuario ; USER=root ; COMMAND=/usr/bin/su
+Jan 21 21:35:17 laboratorio sudo: pam_unix(sudo:session): session opened for user root by usuario(uid=0)
+Jan 21 21:35:17 laboratorio su: (to root) usuario on pts/0
+Jan 21 21:35:17 laboratorio su: pam_unix(su:session): session opened for user root by usuario(uid=0)
+Jan 21 21:36:17 laboratorio login[592]: pam_unix(login:session): session closed for user usuario
+Jan 21 21:36:17 laboratorio systemd-logind[580]: Session 1 logged out. Waiting for processes to exit.
+Jan 21 21:36:17 laboratorio systemd-logind[580]: Removed session 1.
+Jan 21 21:36:27 laboratorio login[1462]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 21:36:29 laboratorio login[1462]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 21:36:30 laboratorio login[1462]: pam_unix(login:session): session opened for user usuario by LOGIN(uid=0)
+Jan 21 21:36:30 laboratorio systemd-logind[580]: New session 7 of user usuario.
+Jan 21 21:37:25 laboratorio su: pam_unix(su:session): session closed for user root
+Jan 21 21:37:25 laboratorio sudo: pam_unix(sudo:session): session closed for user root
+Jan 21 21:39:56 laboratorio sudo:  usuario : TTY=pts/0 ; PWD=/home/usuario ; USER=root ; COMMAND=/usr/bin/touch prueba2.txt}
+Jan 21 21:39:56 laboratorio sudo: pam_unix(sudo:session): session opened for user root by usuario(uid=0)
+Jan 21 21:39:56 laboratorio sudo: pam_unix(sudo:session): session closed for user root
+Jan 21 21:41:08 laboratorio sudo:  usuario : TTY=pts/0 ; PWD=/home/usuario ; USER=root ; COMMAND=/usr/bin/touch prueba2.txt
+Jan 21 21:41:08 laboratorio sudo: pam_unix(sudo:session): session opened for user root by usuario(uid=0)
+Jan 21 21:41:08 laboratorio sudo: pam_unix(sudo:session): session closed for user root
+Jan 21 21:41:53 laboratorio sudo:  usuario : TTY=pts/0 ; PWD=/home/usuario ; USER=root ; COMMAND=/usr/bin/su
+Jan 21 21:41:53 laboratorio sudo: pam_unix(sudo:session): session opened for user root by usuario(uid=0)
+Jan 21 21:41:53 laboratorio su: (to root) usuario on pts/0
+Jan 21 21:41:53 laboratorio su: pam_unix(su:session): session opened for user root by usuario(uid=0)
+Jan 21 21:43:06 laboratorio su: pam_unix(su:session): session closed for user root
+Jan 21 21:43:06 laboratorio sudo: pam_unix(sudo:session): session closed for user root
+Jan 21 21:43:58 laboratorio sudo:  usuario : TTY=pts/0 ; PWD=/home/usuario ; USER=root ; COMMAND=/usr/bin/chmod 704 directorio_prueba/
+Jan 21 21:43:58 laboratorio sudo: pam_unix(sudo:session): session opened for user root by usuario(uid=0)
+Jan 21 21:43:58 laboratorio sudo: pam_unix(sudo:session): session closed for user root
+Jan 21 21:44:32 laboratorio sudo:  usuario : TTY=pts/0 ; PWD=/home/usuario ; USER=root ; COMMAND=/usr/bin/su
+Jan 21 21:44:32 laboratorio sudo: pam_unix(sudo:session): session opened for user root by usuario(uid=0)
+Jan 21 21:44:32 laboratorio su: (to root) usuario on pts/0
+Jan 21 21:44:32 laboratorio su: pam_unix(su:session): session opened for user root by usuario(uid=0)
+Jan 21 21:44:53 laboratorio su: pam_unix(su:session): session closed for user root
+Jan 21 21:44:53 laboratorio sudo: pam_unix(sudo:session): session closed for user root
+Jan 21 21:52:18 laboratorio sshd[1668]: Accepted password for usuario from 192.168.2.189 port 61175 ssh2
+Jan 21 21:52:18 laboratorio sshd[1668]: pam_unix(sshd:session): session opened for user usuario by (uid=0)
+Jan 21 21:52:18 laboratorio systemd-logind[580]: New session 8 of user usuario.
+Jan 21 21:52:18 laboratorio sshd[1670]: Accepted password for usuario from 192.168.2.189 port 61176 ssh2
+Jan 21 21:52:18 laboratorio sshd[1670]: pam_unix(sshd:session): session opened for user usuario by (uid=0)
+Jan 21 21:52:19 laboratorio systemd-logind[580]: New session 9 of user usuario.
+Jan 21 22:04:30 laboratorio sshd[1322]: pam_unix(sshd:session): session closed for user usuario
+Jan 21 22:04:30 laboratorio systemd-logind[580]: Session 6 logged out. Waiting for processes to exit.
+Jan 21 22:04:31 laboratorio systemd-logind[580]: Removed session 6.
+Jan 21 22:04:54 laboratorio sshd[1847]: Accepted password for usuario from 192.168.2.189 port 61259 ssh2
+Jan 21 22:04:54 laboratorio sshd[1847]: pam_unix(sshd:session): session opened for user usuario by (uid=0)
+Jan 21 22:04:54 laboratorio systemd-logind[580]: New session 10 of user usuario.
+Jan 21 22:07:10 laboratorio passwd[1983]: pam_unix(passwd:chauthtok): password changed for usuario
+Jan 21 22:07:25 laboratorio sshd[1986]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.2.189  user=usuario
+Jan 21 22:07:27 laboratorio sshd[1986]: Failed password for usuario from 192.168.2.189 port 61273 ssh2
+Jan 21 22:07:32 laboratorio sshd[1986]: Accepted password for usuario from 192.168.2.189 port 61273 ssh2
+Jan 21 22:07:32 laboratorio sshd[1986]: pam_unix(sshd:session): session opened for user usuario by (uid=0)
+Jan 21 22:07:32 laboratorio systemd-logind[580]: New session 11 of user usuario.
+Jan 21 22:07:40 laboratorio sshd[1986]: pam_unix(sshd:session): session closed for user usuario
+Jan 21 22:07:40 laboratorio systemd-logind[580]: Session 11 logged out. Waiting for processes to exit.
+Jan 21 22:07:40 laboratorio systemd-logind[580]: Removed session 11.
+Jan 21 22:08:37 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 22:08:42 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 22:08:42 laboratorio sudo: pam_unix(sudo:auth): authentication failure; logname=usuario uid=1000 euid=0 tty=/dev/pts/0 ruser=usuario rhost=  user=usuario
+Jan 21 22:08:44 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 22:08:49 laboratorio sudo: message repeated 2 times: [ pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory]
+Jan 21 22:08:53 laboratorio sudo: pam_unix(sudo:auth): conversation failed
+Jan 21 22:08:53 laboratorio sudo: pam_unix(sudo:auth): auth could not identify password for [usuario]
+Jan 21 22:08:53 laboratorio sudo:  usuario : 2 incorrect password attempts ; TTY=pts/0 ; PWD=/home/usuario ; USER=root ; COMMAND=/usr/bin/passwd usuario
+Jan 21 22:13:38 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 22:13:42 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 21 22:13:42 laboratorio sudo:  usuario : TTY=pts/0 ; PWD=/home/usuario ; USER=root ; COMMAND=/usr/bin/su
+Jan 21 22:13:42 laboratorio sudo: pam_unix(sudo:session): session opened for user root by usuario(uid=0)
+Jan 21 22:13:42 laboratorio su: (to root) usuario on pts/0
+Jan 21 22:13:42 laboratorio su: pam_unix(su:session): session opened for user root by usuario(uid=0)
+Jan 21 22:14:45 laboratorio groupadd[2129]: group added to /etc/group: name=test_group, GID=1001
+Jan 21 22:14:45 laboratorio groupadd[2129]: group added to /etc/gshadow: name=test_group
+Jan 21 22:14:45 laboratorio groupadd[2129]: new group: name=test_group, GID=1001
+Jan 21 22:17:01 laboratorio CRON[2137]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 21 22:17:01 laboratorio CRON[2137]: pam_unix(cron:session): session closed for user root
+Jan 21 22:17:35 laboratorio useradd[2159]: new user: name=test_user, UID=1001, GID=1001, home=/home/test/, shell=/bin/bash, from=/dev/pts/0
+Jan 21 22:18:28 laboratorio passwd[2168]: pam_unix(passwd:chauthtok): password changed for test_user
+Jan 21 22:18:43 laboratorio sshd[2169]: Accepted password for test_user from 192.168.2.189 port 61426 ssh2
+Jan 21 22:18:43 laboratorio sshd[2169]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+Jan 21 22:18:43 laboratorio systemd-logind[580]: New session 13 of user test_user.
+Jan 21 22:18:43 laboratorio systemd: pam_unix(systemd-user:session): session opened for user test_user by (uid=0)
+Jan 21 23:17:01 laboratorio CRON[2286]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 21 23:17:01 laboratorio CRON[2286]: pam_unix(cron:session): session closed for user root
+Jan 21 23:28:01 laboratorio CRON[2292]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 21 23:28:01 laboratorio CRON[2292]: pam_unix(cron:session): session closed for user root
+Jan 22 00:17:01 laboratorio CRON[2330]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 22 00:17:01 laboratorio CRON[2330]: pam_unix(cron:session): session closed for user root
+Jan 26 13:34:59 laboratorio sshd[625]: Server listening on 0.0.0.0 port 22.
+Jan 26 13:34:59 laboratorio sshd[625]: Server listening on :: port 22.
+Jan 26 13:35:07 laboratorio systemd-logind[580]: New seat seat0.
+Jan 26 13:35:07 laboratorio systemd-logind[580]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 26 13:35:07 laboratorio systemd-logind[580]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 26 13:35:07 laboratorio systemd-logind[580]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 26 13:35:09 laboratorio login[615]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 26 13:35:12 laboratorio login[615]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 26 13:35:17 laboratorio login[615]: pam_unix(login:session): session opened for user usuario by LOGIN(uid=0)
+Jan 26 13:35:17 laboratorio systemd-logind[580]: New session 1 of user usuario.
+Jan 26 13:35:17 laboratorio systemd: pam_unix(systemd-user:session): session opened for user usuario by (uid=0)
+Jan 26 13:39:15 laboratorio sshd[943]: Accepted password for usuario from 192.168.2.189 port 59325 ssh2
+Jan 26 13:39:15 laboratorio sshd[943]: pam_unix(sshd:session): session opened for user usuario by (uid=0)
+Jan 26 13:39:15 laboratorio systemd-logind[580]: New session 3 of user usuario.
+Jan 26 13:40:01 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 26 13:40:05 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 26 13:40:05 laboratorio sudo:  usuario : TTY=pts/0 ; PWD=/home/usuario ; USER=root ; COMMAND=/usr/bin/more /etc/shadow
+Jan 26 13:40:05 laboratorio sudo: pam_unix(sudo:session): session opened for user root by usuario(uid=0)
+Jan 26 13:40:08 laboratorio sudo: pam_unix(sudo:session): session closed for user root
+Jan 26 13:45:22 laboratorio sudo:  usuario : TTY=pts/0 ; PWD=/home/usuario ; USER=root ; COMMAND=/usr/bin/su - test_user
+Jan 26 13:45:22 laboratorio sudo: pam_unix(sudo:session): session opened for user root by usuario(uid=0)
+Jan 26 13:45:22 laboratorio su: (to test_user) usuario on pts/0
+Jan 26 13:45:22 laboratorio su: pam_unix(su-l:session): session opened for user test_user by usuario(uid=0)
+Jan 26 13:46:11 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 26 13:46:16 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 26 13:46:16 laboratorio sudo: pam_unix(sudo:auth): authentication failure; logname=usuario uid=1001 euid=0 tty=/dev/pts/0 ruser=test_user rhost=  user=test_user
+Jan 26 13:46:18 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 26 13:46:20 laboratorio sudo: pam_unix(sudo:auth): conversation failed
+Jan 26 13:46:20 laboratorio sudo: pam_unix(sudo:auth): auth could not identify password for [test_user]
+Jan 26 13:46:20 laboratorio sudo: test_user : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/test ; USER=root ; COMMAND=/usr/bin/su
+Jan 26 13:46:24 laboratorio su: pam_unix(su-l:session): session closed for user test_user
+Jan 26 13:46:24 laboratorio sudo: pam_unix(sudo:session): session closed for user root
+Jan 26 13:46:36 laboratorio sudo:  usuario : TTY=pts/0 ; PWD=/home/usuario ; USER=root ; COMMAND=/usr/bin/passwd test_user
+Jan 26 13:46:36 laboratorio sudo: pam_unix(sudo:session): session opened for user root by usuario(uid=0)
+Jan 26 13:46:41 laboratorio passwd[2315]: pam_unix(passwd:chauthtok): password changed for test_user
+Jan 26 13:46:41 laboratorio sudo: pam_unix(sudo:session): session closed for user root
+Jan 26 13:47:00 laboratorio su: pam_unix(su-l:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 26 13:47:04 laboratorio su: pam_unix(su-l:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 26 13:47:04 laboratorio su: (to test_user) usuario on pts/0
+Jan 26 13:47:04 laboratorio su: pam_unix(su-l:session): session opened for user test_user by usuario(uid=1000)
+Jan 26 13:47:12 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 26 13:47:17 laboratorio sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan 26 13:47:17 laboratorio sudo: test_user : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/test ; USER=root ; COMMAND=/usr/bin/su -
+Jan 26 13:47:35 laboratorio su: pam_unix(su-l:session): session closed for user test_user
+Jan 26 14:17:01 laboratorio CRON[2596]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 26 14:17:01 laboratorio CRON[2596]: pam_unix(cron:session): session closed for user root
+Jan 26 15:17:01 laboratorio CRON[2681]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 26 15:17:01 laboratorio CRON[2681]: pam_unix(cron:session): session closed for user root
+Jan 27 00:17:01 laboratorio CRON[2830]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 27 00:17:01 laboratorio CRON[2830]: pam_unix(cron:session): session closed for user root
+Jan 27 01:17:01 laboratorio CRON[2844]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 27 01:17:01 laboratorio CRON[2844]: pam_unix(cron:session): session closed for user root
+Jan 27 02:07:20 laboratorio sshd[943]: pam_unix(sshd:session): session closed for user usuario
+Jan 27 02:07:20 laboratorio systemd-logind[580]: Session 3 logged out. Waiting for processes to exit.
+Jan 27 02:07:20 laboratorio systemd-logind[580]: Removed session 3.
+Jan 27 02:17:01 laboratorio CRON[2877]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 27 02:17:01 laboratorio CRON[2877]: pam_unix(cron:session): session closed for user root
